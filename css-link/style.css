@@ -1,3 +1,15 @@
 .nav {
+    text-align: right;
+}
+
+.Sign-up-two,
+.sign-up-one {
+    background: #3882F6;
+    color: white;
+}
+
+.footer {
+    height: 18vh;
+    color: black;
     text-align: center;
 }
