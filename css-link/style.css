@@ -22,6 +22,42 @@ header {
     justify-content: left;
 }
 
+.this-website-is-awesome {
+    border: 4px solid #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+.header-one {
+    color: white;
+    border: 4px solid #1f2937;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 850px;
+}
+
+.header-two {
+    color: white;
+    border: 4px solid #1f2937;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 980px;
+}
+
+.header-three {
+    color: white;
+    border: 4px solid #1f2937;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 1110px;
+}
+
 .awesome-subtext {
     height: 40px;
     padding: 16px;
@@ -45,6 +81,15 @@ header {
     position: absolute;
     right: 0px;
     left: 920px;
+}
+
+.placeholder-text {
+    border: 4px solid lightgray;
+    color: black;
+    display: flex;
+    position: absolute;
+    left: 990px;
+    top: 190px;
 }
 
 .sign-up-one {
@@ -75,7 +120,7 @@ header {
 .box-two,
 .box-three,
 .box-four {
-    width: 160px;
+    width: 120px;
     height: 120px;
     border: 4px solid blue;
     background: white;
@@ -89,7 +134,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 9px;
+    gap: 180px;
+}
+
+.box-one-text {
+    border: 4px solid white;
+    width: 150px;
+    color: black;
+    position: absolute;
+    display: flex;
+    top: 600px;
+    left: 185px;
 }
 
 .quote {
