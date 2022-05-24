@@ -85,7 +85,7 @@ header {
 
 .placeholder-text {
     border: 4px solid lightgray;
-    color: black;
+    color: rgb(57, 57, 55);
     display: flex;
     position: absolute;
     left: 990px;
@@ -180,16 +180,39 @@ header {
 .quote {
     height: 280px;
     padding: 16px;
-    background: gray;
+    background: lightgray;
     color: black;
-    border: 4px solid gray;
+    border: 4px solid lightgray;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 9px;
 }
 
+.thor-quote {
+    border: 4px solid lightgray;
+    width: 750px;
+    height: 200px;
+    color: rgb(57, 57, 55);
+    position: absolute;
+    display: flex;
+    top: 800px;
+    left: 380px;
+}
+
+.thor-credit {
+    border: 4px solid lightgray;
+    color: black;
+    height: 80px;
+    width: 190px;
+    display: flex;
+    position: absolute;
+    top: 850px;
+    left: 850px;
+}
+
 .call-to-action {
+    border: 4px solid #3882F6;
     height: 280px;
     padding: 16px;
     background: white;
@@ -209,7 +232,7 @@ header {
 }
 
 .footer {
-    height: 100px;
+    height: 70px;
     padding: 16px;
     background: black;
     color: white;
