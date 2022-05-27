@@ -3,13 +3,12 @@ header {
     padding: 16px;
     background: white;
     background-color: #1f2937;
-    border: 4px solid #1f2937;
     display: flex;
     align-items: center;
     text-align: top;
 }
 
-.header-logo {
+.welcome-logo {
     height: 10px;
     padding: 16px;
     background: #1f2937;
@@ -31,7 +30,7 @@ header {
     left: 100px;
 }
 
-.header-one {
+.home {
     color: white;
     border: 4px solid #1f2937;
     display: flex;
@@ -40,7 +39,7 @@ header {
     left: 850px;
 }
 
-.header-two {
+.about {
     color: white;
     border: 4px solid #1f2937;
     display: flex;
@@ -49,7 +48,7 @@ header {
     left: 980px;
 }
 
-.header-three {
+.products {
     color: white;
     border: 4px solid #1f2937;
     display: flex;
@@ -74,8 +73,8 @@ header {
 
 .placeholder {
     background: lightgray;
+    border-radius: 25px;
     text-align: center;
-    color: white;
     height: 130px;
     width: 350px;
     position: absolute;
@@ -94,6 +93,7 @@ header {
 
 .sign-up-one {
     background: #3882F6;
+    border-radius: 25px;
     color: white;
     display: flex;
     align-items: center;
@@ -106,6 +106,7 @@ header {
 
 .Sign-up-two {
     background: #3882F6;
+    border-radius: 25px;
     color: white;
     display: flex;
     align-items: center;
@@ -124,13 +125,13 @@ header {
     height: 120px;
     border: 4px solid blue;
     background: white;
+    border-radius: 25px;
 }
 
 .containers {
     height: 280px;
     padding: 16px;
     background: white;
-    border: 4px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,7 +139,6 @@ header {
 }
 
 .box-one-text {
-    border: 4px solid white;
     width: 150px;
     color: black;
     position: absolute;
@@ -148,7 +148,6 @@ header {
 }
 
 .box-two-text {
-    border: 4px solid white;
     width: 150px;
     color: black;
     position: absolute;
@@ -158,7 +157,6 @@ header {
 }
 
 .box-three-text {
-    border: 4px solid white;
     width: 150px;
     color: black;
     position: absolute;
@@ -168,7 +166,6 @@ header {
 }
 
 .box-four-text {
-    border: 4px solid white;
     width: 150px;
     color: black;
     position: absolute;
@@ -190,7 +187,6 @@ header {
 }
 
 .thor-quote {
-    border: 4px solid lightgray;
     width: 750px;
     height: 200px;
     color: rgb(57, 57, 55);
@@ -212,11 +208,9 @@ header {
 }
 
 .call-to-action {
-    border: 4px solid #3882F6;
     height: 280px;
     padding: 16px;
     background: white;
-    border: 4px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,6 +223,7 @@ header {
     border: 4px solid #3882F6;
     background: #3882F6;
     color: white;
+    border-radius: 25px;
 }
 
 .footer {
